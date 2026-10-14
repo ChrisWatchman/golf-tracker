@@ -15,9 +15,10 @@ const card = { background: '#ffffff', borderRadius: '10px', padding: '4px 14px',
 const row = { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '10px 0', borderBottom: `1px solid ${LINE}` }
 const smallButton = { fontSize: '13px', borderRadius: '16px', padding: '0 14px', height: '32px', lineHeight: '32px' }
 
-// Buy me a coffee: PayPal QR (hosted on the course website) and its link
+// Buy me a coffee: PayPal QR shown as an image (hosted on the course website),
+// and the PayPal.Me page for the tap-through link
 const COFFEE_QR = 'https://course-mapper.watchgps.workers.dev/coffee-qr.png'
-const COFFEE_LINK = 'https://www.paypal.com/qrcodes/p2pqrc/H52JSEGSFXPPW'
+const COFFEE_LINK = 'https://paypal.me/cringlemonks'
 
 // Text renders inline by default; blocks make each piece its own line
 function text(content, style = {}) {
