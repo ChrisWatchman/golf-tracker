@@ -9,7 +9,7 @@ Images are in this folder.
 |---|---|
 | App name | Golf Tracker |
 | Category | Sports (or Tools if Sports isn't offered) |
-| Package | `dist/1129461-Golf_Tracker-2.0.0-*.zab` (build with `zeus build`) |
+| Package | `release/Golf_Tracker-2.0.0.zab` (a copy of the `zeus build` output in `dist/`, which `zeus dev` clears) |
 | Version | 2.0.0 (code 4), read from the package |
 | Supported devices | Amazfit Balance, read from the package |
 | Language | English |
