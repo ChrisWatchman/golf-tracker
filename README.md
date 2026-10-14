@@ -57,6 +57,14 @@ Courses are small JSON files (about 1 KB for nine holes): for each hole, one
 or more tees and the front, middle and back of the green as `[lat, lon]`.
 See `utils/course-format.js`.
 
+## Buy me a coffee
+
+Golf Tracker and the course website are free, with no adverts. If they help
+your game, you can say thanks with a coffee: scan the code with your phone or
+the PayPal app, or [open it in PayPal](https://www.paypal.com/qrcodes/managed/b1067aff-292a-4d6b-a501-b331ef7057b6?utm_source=consweb_more).
+
+<img src="docs/buy-me-a-coffee.png" width="200" alt="PayPal QR code to buy me a coffee">
+
 ## Licence
 
 MIT - see [LICENSE](LICENSE).

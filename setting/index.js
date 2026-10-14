@@ -15,6 +15,10 @@ const card = { background: '#ffffff', borderRadius: '10px', padding: '4px 14px',
 const row = { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '10px 0', borderBottom: `1px solid ${LINE}` }
 const smallButton = { fontSize: '13px', borderRadius: '16px', padding: '0 14px', height: '32px', lineHeight: '32px' }
 
+// Buy me a coffee: PayPal QR (hosted on the course website) and its link
+const COFFEE_QR = 'https://course-mapper.watchgps.workers.dev/coffee-qr.png'
+const COFFEE_LINK = 'https://www.paypal.com/qrcodes/managed/b1067aff-292a-4d6b-a501-b331ef7057b6?utm_source=consweb_more'
+
 // Text renders inline by default; blocks make each piece its own line
 function text(content, style = {}) {
   return Text({ style: { display: 'block', fontSize: '14px', color: '#1d2a1b', ...style } }, [content])
@@ -184,7 +188,13 @@ AppSettingsPage({
       heading(`Club distances (${unit})`, `Your average carry with each club, in ${unitLabel(units).toLowerCase()}. Tap a club to change it.`),
       clubCard,
       heading('Course website', 'Where courses are searched and downloaded from. Your phone must be able to reach it.'),
-      serverCard
+      serverCard,
+      heading('Buy me a coffee', 'Golf Tracker is free, with no adverts. If it helps your game, you can say thanks with a coffee.'),
+      View({ style: { ...card, padding: '14px', textAlign: 'center' } }, [
+        Image({ src: COFFEE_QR, width: 180, height: 180, alt: 'PayPal QR code' }),
+        text('Scan with another phone or the PayPal app, or tap below.', { fontSize: '12px', color: MUTED, margin: '6px 0 10px' }),
+        Link({ source: COFFEE_LINK }, [text('Open in PayPal', { color: GREEN, fontWeight: 'bold' })])
+      ])
     ])
   }
 })

@@ -13,10 +13,3 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-
-# Local only
-install-qr.png
-.claude/
-
-# Local notes for Claude Code
-CLAUDE.md

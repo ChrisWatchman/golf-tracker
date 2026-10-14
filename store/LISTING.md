@@ -18,6 +18,7 @@ Images are in this folder.
 | Permissions | Location (`device:os.geolocation`): GPS distances. Local storage (`device:os.local_storage`): courses and settings saved on the watch. |
 | SDK in the package | Yes: `@zeppos/zml` 0.0.27 (Zepp's open-source messaging library, used for watch-phone communication) |
 | Price | Free |
+| Payment method (must be explained) | Optional donation only. The settings page in the Zepp app shows a PayPal QR code and an "Open in PayPal" link ("Buy me a coffee"). Nothing in the app is locked or paid; donating is entirely voluntary and handled by PayPal, outside the app. |
 
 ## App profile (short)
 
@@ -37,6 +38,7 @@ distance based on your own average club distances.
 - Yards or metres
 - Small clock on the hole screen
 - Works without your phone once courses are on the watch
+- Free, with no adverts; an optional "Buy me a coffee" link is in the settings
 
 Courses come from the free course website at
 https://course-mapper.watchgps.workers.dev. Anyone can map a course there on
@@ -63,6 +65,10 @@ sort the results. The website does not store them; its hosting provider
 Settings: your units, number of holes, club distances and downloaded courses
 are stored in the Zepp app and on your watch only. Removing the app removes
 them.
+
+Donations: the settings page shows a "Buy me a coffee" PayPal QR code, loaded
+from the course website. Donating is optional and happens on PayPal; the app
+sends nothing to PayPal and doesn't know whether you donated.
 
 Course website: if you submit a course on the website, the course map and the
 optional name and note you enter are stored so the course can be reviewed and
