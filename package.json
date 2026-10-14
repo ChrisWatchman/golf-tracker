@@ -1,0 +1,9 @@
+{
+  "name": "golf-tracker",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Golf Tracker - Zepp OS mini app for green distances",
+  "dependencies": {
+    "@zeppos/zml": "0.0.27"
+  }
+}
