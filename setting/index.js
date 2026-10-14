@@ -17,7 +17,7 @@ const smallButton = { fontSize: '13px', borderRadius: '16px', padding: '0 14px',
 
 // Buy me a coffee: PayPal QR (hosted on the course website) and its link
 const COFFEE_QR = 'https://course-mapper.watchgps.workers.dev/coffee-qr.png'
-const COFFEE_LINK = 'https://www.paypal.com/qrcodes/managed/b1067aff-292a-4d6b-a501-b331ef7057b6?utm_source=consweb_more'
+const COFFEE_LINK = 'https://www.paypal.com/qrcodes/p2pqrc/H52JSEGSFXPPW'
 
 // Text renders inline by default; blocks make each piece its own line
 function text(content, style = {}) {

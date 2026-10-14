@@ -61,7 +61,7 @@ See `utils/course-format.js`.
 
 Golf Tracker and the course website are free, with no adverts. If they help
 your game, you can say thanks with a coffee: scan the code with your phone or
-the PayPal app, or [open it in PayPal](https://www.paypal.com/qrcodes/managed/b1067aff-292a-4d6b-a501-b331ef7057b6?utm_source=consweb_more).
+the PayPal app, or [open it in PayPal](https://www.paypal.com/qrcodes/p2pqrc/H52JSEGSFXPPW).
 
 <img src="docs/buy-me-a-coffee.png" width="200" alt="PayPal QR code to buy me a coffee">
 
